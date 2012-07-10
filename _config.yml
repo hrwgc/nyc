@@ -1,0 +1,6 @@
+auto: true
+server: true
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: pretty

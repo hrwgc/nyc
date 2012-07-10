@@ -1,0 +1,46 @@
+body, h1, h2, h3, h4, a, div, .highcharts-tooltips, .highcharts-legend-item, .highcharts-title, .highcharts-legend {
+	font-family: "Helvetica", Arial, "Pt Sans", sans-serif;
+	background-color:#ccc;
+}
+
+.chart {
+	width:750px;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+body, h1, h2, h3, h4 {
+  color: rgb(65,68,73);
+
+}
+
+ h3, h4 {
+  font-weight:400;
+  font-style:normal;
+}
+
+h4, h4 a {
+	font-style:italic;
+	font-weight:normal;
+}
+
+
+.highcharts-tooltips {
+	z-index:999999;
+	color:rgb(230,230,230);
+	background-color:rgb(65,68,73);
+
+}
+.highcharts-container {
+	background-color:rgb(230,230,230);
+	border-radius:.5em;
+}
+
+a:hover {
+  background-color:rgb(65,68,73);
+  color:rgb(230,230,230);
+  padding:5px;
+	border-radius:.25em;
+  
+}
